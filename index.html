@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home/X</title>
+  <link <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="./src/output.css" />
+</head>
+
+<body class=" bg-black text-white">
+  <div class="flex md:container mx-auto relative">
+    <div class="first w-16 md:w-[70%] ">
+      <div class="sidebar flex md:items-end  flex-col sticky top-0">
+        <div class=" self-center logo invert my-5 mx-2 md:mx-16">
+          <svg viewBox="0 0 24 24" aria-hidden="true"
+            class=" w-8 mx-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-rxcuwo r-1777fci r-m327ed r-494qqr">
+            <g>
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+              </path>
+            </g>
+          </svg>
+        </div>
+        <ul class="flex flex-col text-xl space-y-1 md:px-11 font-bold  ">
+          <li
+            class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full">
+            <span class=" text-3xl material-symbols-outlined ">home</span><span class="hidden md:block">Home</span>
+          </li>
+          <li
+            class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+            <span class=" text-3xl material-symbols-outlined">search</span><span class="hidden md:block">Explore</span>
+          </li>
+          <li
+            class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+            <span class=" text-3xl material-symbols-outlined">notifications</span><span
+              class="hidden md:block">Notification</span>
+          </li>
+          <li
+            class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+            <span class=" text-3xl material-symbols-outlined">psychology</span><span class="hidden md:block">Grok</span>
+          </li>
+          <li
+            class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+            <span class=" text-3xl material-symbols-outlined">list_alt</span><span class="hidden md:block">Lists</span>
+          </li>
+          <li
+            class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+            <span class=" text-3xl material-symbols-outlined">bookmark</span><span
+              class="hidden md:block">Bookmarks</span>
+          </li>
+          <li
+            class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+            <span class=" text-3xl material-symbols-outlined">groups</span><span
+              class="hidden md:block">Communities</span>
+          </li>
+          <li
+            class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+            <span class=" text-3xl material-symbols-outlined">workspace_premium</span><span
+              class="hidden md:block">Premium</span>
+          </li>
+          <li
+            class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+            <span class=" text-3xl material-symbols-outlined">person</span><span class="hidden md:block">Profile</span>
+          </li>
+          <li
+            class="flex md:justify-start items-center gap-3 justify-center  mr-4 md:w-fit  hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+            <span class=" text-3xl material-symbols-outlined">more_horiz</span><span class="hidden md:block">More</span>
+          </li>
+          <li>
+            <div class="button w-full text-center my-4">
+              <button class="hidden hover:bg-gray-300 cursor-pointer md:block bg-white px-20 text-xl rounded-full py-3 text-black">Post</button>
+              <button class="md:hidden hover:bg-gray-300 cursor-pointer bg-white  px-2 md:px-4 text-xl rounded-full py-1 md:py-3 text-black">
+                <span class="material-symbols-outlined">
+                  edit
+                </span>
+              </button>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="second w-full border-x-1 border-x-gray-500 ">
+      <div class="top flex p-3 relative">
+
+        <div class="absolute bg-blue-400 h-1 w-15 bottom-0 left-[19%] rounded-full  "></div>
+        <!-- <div class="absolute bg-blue-400 h-1 w-18 bottom-0 left-[calc(63%-3px)] rounded-full  "></div> -->
+        <div class="left w-2/3 bg-red-40011 flex justify-center items-center font-bold hover:cursor-pointer">For You
+        </div>
+        <div class="right w-2/3 bg-blue-90011 flex justify-center items-center font-bold hover:cursor-pointer">Following
+        </div>
+        <div class="settings mx-2 flex items-center"><span class="material-symbols-outlined">settings</span></div>
+      </div>
+      <hr class="border-t border-gray-500">
+      <div class="whatishapp flex gap-4 mx-4 mt-2">
+        <div class="img ">
+          <img src="https://pbs.twimg.com/profile_images/1926587861530263553/evZu2Wki_200x200.jpg"
+            alt="Kim_Minjeon_Profile" class="rounded-full w-12 md:w-20 h-auto max-w-full" />
+        </div>
+        <div class="w-full ">
+          <input type="text" placeholder="What's Happening?"
+            class="bg-black w-full text-white h-15 text-xl outline-none ">
+          <div
+            class="flex items-center text-blue-400 gap-1 font-bold text-[15px] my-3 hover:bg-gray-900 hover:rounded-full w-fit hover:cursor-pointer">
+            <span class="material-symbols-outlined">public</span>
+            <span>Everyone can reply</span>
+          </div>
+          <hr class="border-t border-gray-500">
+          <div class="blue-icons flex gap-4 text-blue-400 my-4 mx-2">
+            <div class=""><span class="material-symbols-outlined cursor-pointer">imagesmode</span></div>
+            <div class=""><span class="material-symbols-outlined cursor-pointer">gif_box</span></div>
+            <div class=""><span class="material-symbols-outlined cursor-pointer">smart_toy</span></div>
+            <div class=""><span class="material-symbols-outlined cursor-pointer">ballot</span></div>
+            <div class=""><span class="material-symbols-outlined cursor-pointer">calendar_clock</span></div>
+            <div class=""><span class="material-symbols-outlined cursor-pointer">location_on</span></div>
+          </div>
+        </div>
+      </div>
+      <hr class="border-t border-gray-500 ">
+      <div class="posts ">
+        <div class="post flex">
+          <div class="image m-4">
+            <img src="https://pbs.twimg.com/profile_images/1792537728732758017/bOz-byoZ_200x200.jpg"
+              alt="Karina_Profile" class="rounded-full w-16 md:w-25 h-auto max-w-full" />
+          </div>
+          <div class="content flex gap-2 my-3">
+            <div class="prfile-name">
+              <div class="flex">
+                <span class="hover:underline cursor-pointer font-bold text-white">aespa KARINA 에스파 카리나</span>
+                <span><img src="image/instagram_Bluetick-removebg-preview.png" alt="" class="w-5"></span>
+                <span class="ml-2 text-gray-500">@katarinabluuk·May 23, 2023'</span>
+              </div>
+              <div class="content-desc">
+                Mojito🍋
+              </div>
+              <div class="post-img m-4 ml-0">
+                <img src="https://pbs.twimg.com/media/GOfXGiFaEAEcav4?format=jpg&name=large" alt="Karina_pic"
+                  class="rounded-3xl">
+              </div>
+              <div class="flex justify-between text-gray-400 text-[20px] mt-3 mr-4 items-center">
+
+                <!-- Comment -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-sky-500">
+                  <span class="material-symbols-outlined text-[20px]">chat_bubble_outline</span>
+                  <span class="text-sm">1.2M</span>
+                </button>
+                <!-- Repost -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-green-500">
+                  <span class="material-symbols-outlined text-[20px]">repeat</span>
+                  <span class="text-sm">816.7k</span>
+                </button>
+
+                <!-- Like -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-pink-500">
+                  <span class="material-symbols-outlined text-[20px]">favorite</span>
+                  <span class="text-sm">10.7M</span>
+                </button>
+
+                <!-- Views -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-purple-500">
+                  <span class="material-symbols-outlined text-[20px]">bar_chart</span>
+                  <span class="text-sm">82.4M</span>
+                </button>
+
+                <div class="flex items-center gap-3 ">
+                  <!-- Save -->
+                  <button class="flex items-center gap-2 cursor-pointer hover:text-yellow-500">
+                    <span class="material-symbols-outlined text-[20px]">bookmark</span>
+                  </button>
+
+                  <!-- Share/Download -->
+                  <button class="flex items-center gap-2 cursor-pointer hover:text-blue-500">
+                    <span class="material-symbols-outlined text-[20px]">download</span>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <hr class="border-t border-gray-500">
+        <div class="post flex">
+          <div class="image m-4">
+            <img src="https://pbs.twimg.com/profile_images/1792537728732758017/bOz-byoZ_200x200.jpg"
+              alt="Karina_Profile" class="rounded-full w-16 md:w-25 h-auto max-w-full" />
+          </div>
+          <div class="content flex gap-2 my-3">
+            <div class="prfile-name">
+              <div class="flex">
+                <span class="hover:underline cursor-pointer font-bold text-white">aespa KARINA 에스파 카리나</span>
+                <span><img src="image/instagram_Bluetick-removebg-preview.png" alt="" class="w-5"></span>
+                <span class="ml-2 text-gray-500">@katarinabluuk·May 23, 2023'</span>
+              </div>
+              <div class="content-desc">
+                Mojito🍋
+              </div>
+              <div class="post-img m-4 ml-0">
+                <img src="https://pbs.twimg.com/media/GOfXGiFaEAEcav4?format=jpg&name=large" alt="Karina_pic"
+                  class="rounded-3xl">
+              </div>
+              <div class="flex justify-between text-gray-400 text-[20px] mt-3 mr-4 items-center">
+
+                <!-- Comment -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-sky-500">
+                  <span class="material-symbols-outlined text-[20px]">chat_bubble_outline</span>
+                  <span class="text-sm">1.2M</span>
+                </button>
+                <!-- Repost -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-green-500">
+                  <span class="material-symbols-outlined text-[20px]">repeat</span>
+                  <span class="text-sm">816.7k</span>
+                </button>
+
+                <!-- Like -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-pink-500">
+                  <span class="material-symbols-outlined text-[20px]">favorite</span>
+                  <span class="text-sm">10.7M</span>
+                </button>
+
+                <!-- Views -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-purple-500">
+                  <span class="material-symbols-outlined text-[20px]">bar_chart</span>
+                  <span class="text-sm">82.4M</span>
+                </button>
+
+                <div class="flex items-center gap-3 ">
+                  <!-- Save -->
+                  <button class="flex items-center gap-2 cursor-pointer hover:text-yellow-500">
+                    <span class="material-symbols-outlined text-[20px]">bookmark</span>
+                  </button>
+
+                  <!-- Share/Download -->
+                  <button class="flex items-center gap-2 cursor-pointer hover:text-blue-500">
+                    <span class="material-symbols-outlined text-[20px]">download</span>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <hr class="border-t border-gray-500">
+        <div class="post flex">
+          <div class="image m-4">
+            <img src="https://pbs.twimg.com/profile_images/1792537728732758017/bOz-byoZ_200x200.jpg"
+              alt="Karina_Profile" class="rounded-full w-16 md:w-25 h-auto max-w-full" />
+          </div>
+          <div class="content flex gap-2 my-3">
+            <div class="prfile-name">
+              <div class="flex">
+                <span class="hover:underline cursor-pointer font-bold text-white">aespa KARINA 에스파 카리나</span>
+                <span><img src="image/instagram_Bluetick-removebg-preview.png" alt="" class="w-5"></span>
+                <span class="ml-2 text-gray-500">@katarinabluuk·May 23, 2023'</span>
+              </div>
+              <div class="content-desc">
+                Mojito🍋
+              </div>
+              <div class="post-img m-4 ml-0">
+                <img src="https://pbs.twimg.com/media/GOfXGiFaEAEcav4?format=jpg&name=large" alt="Karina_pic"
+                  class="rounded-3xl">
+              </div>
+              <div class="flex justify-between text-gray-400 text-[20px] mt-3 mr-4 items-center">
+
+                <!-- Comment -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-sky-500">
+                  <span class="material-symbols-outlined text-[20px]">chat_bubble_outline</span>
+                  <span class="text-sm">1.2M</span>
+                </button>
+                <!-- Repost -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-green-500">
+                  <span class="material-symbols-outlined text-[20px]">repeat</span>
+                  <span class="text-sm">816.7k</span>
+                </button>
+
+                <!-- Like -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-pink-500">
+                  <span class="material-symbols-outlined text-[20px]">favorite</span>
+                  <span class="text-sm">10.7M</span>
+                </button>
+
+                <!-- Views -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-purple-500">
+                  <span class="material-symbols-outlined text-[20px]">bar_chart</span>
+                  <span class="text-sm">82.4M</span>
+                </button>
+
+                <div class="flex items-center gap-3 ">
+                  <!-- Save -->
+                  <button class="flex items-center gap-2 cursor-pointer hover:text-yellow-500">
+                    <span class="material-symbols-outlined text-[20px]">bookmark</span>
+                  </button>
+
+                  <!-- Share/Download -->
+                  <button class="flex items-center gap-2 cursor-pointer hover:text-blue-500">
+                    <span class="material-symbols-outlined text-[20px]">download</span>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <hr class="border-t border-gray-500">
+        <div class="post flex">
+          <div class="image m-4">
+            <img src="https://pbs.twimg.com/profile_images/1792537728732758017/bOz-byoZ_200x200.jpg"
+              alt="Karina_Profile" class="rounded-full w-16 md:w-25 h-auto max-w-full" />
+          </div>
+          <div class="content flex gap-2 my-3">
+            <div class="prfile-name">
+              <div class="flex">
+                <span class="hover:underline cursor-pointer font-bold text-white">aespa KARINA 에스파 카리나</span>
+                <span><img src="image/instagram_Bluetick-removebg-preview.png" alt="" class="w-5"></span>
+                <span class="ml-2 text-gray-500">@katarinabluuk·May 23, 2023'</span>
+              </div>
+              <div class="content-desc">
+                Mojito🍋
+              </div>
+              <div class="post-img m-4 ml-0">
+                <img src="https://pbs.twimg.com/media/GOfXGiFaEAEcav4?format=jpg&name=large" alt="Karina_pic"
+                  class="rounded-3xl">
+              </div>
+              <div class="flex justify-between text-gray-400 text-[20px] mt-3 mr-4 items-center">
+
+                <!-- Comment -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-sky-500">
+                  <span class="material-symbols-outlined text-[20px]">chat_bubble_outline</span>
+                  <span class="text-sm">1.2M</span>
+                </button>
+                <!-- Repost -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-green-500">
+                  <span class="material-symbols-outlined text-[20px]">repeat</span>
+                  <span class="text-sm">816.7k</span>
+                </button>
+
+                <!-- Like -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-pink-500">
+                  <span class="material-symbols-outlined text-[20px]">favorite</span>
+                  <span class="text-sm">10.7M</span>
+                </button>
+
+                <!-- Views -->
+                <button class="flex items-center gap-2 cursor-pointer hover:text-purple-500">
+                  <span class="material-symbols-outlined text-[20px]">bar_chart</span>
+                  <span class="text-sm">82.4M</span>
+                </button>
+
+                <div class="flex items-center gap-3 ">
+                  <!-- Save -->
+                  <button class="flex items-center gap-2 cursor-pointer hover:text-yellow-500">
+                    <span class="material-symbols-outlined text-[20px]">bookmark</span>
+                  </button>
+
+                  <!-- Share/Download -->
+                  <button class="flex items-center gap-2 cursor-pointer hover:text-blue-500">
+                    <span class="material-symbols-outlined text-[20px]">download</span>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <hr class="border-t border-gray-500">
+      </div>
+    </div>
+    <div class="third w-full ml-4 hidden md:block">
+      <div class="search m-3">
+        <input type="text"
+          class="bg-[#16181c] text-white px-5 py-2 w-2/3 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-full"
+          placeholder="Search">
+      </div>
+      <div class="whats w-2/3 bg-[#16181c] m-3 rounded-2xl py-5 space-y-3">
+        <h1 class="text-xl font-bold px-3">Whats Happening</h1>
+        <div class="item py-2 hover:bg-gray-800 hover:cursor-pointer px-3 ">
+          <div class="text-sm text-gray-400">Trending in South Korea</div>
+          <div class="font-bold">#Aespa Winter</div>
+          <div class="text-sm text-gray-400">98.4k Posts</div>
+        </div>
+
+        <div class="item py-2 hover:bg-gray-800 hover:cursor-pointer px-3 ">
+          <div class="text-sm text-gray-400">Trending in Nepal</div>
+          <div class="font-bold">#Routine of Nepal</div>
+          <div class="text-sm text-gray-400">231.1k Posts</div>
+        </div>
+
+        <div class="item py-2 hover:bg-gray-800 hover:cursor-pointer px-3 ">
+          <div class="text-sm text-gray-400">Trending in India</div>
+          <div class="font-bold">#Web Development Courses</div>
+          <div class="text-sm text-gray-400">504k Posts</div>
+        </div>
+
+        <div class="item py-2 hover:bg-gray-800 hover:cursor-pointer px-3 ">
+          <div class="text-sm text-gray-400">Trending in Thailand</div>
+          <div class="font-bold">#Ladyboy</div>
+          <div class="text-sm text-gray-400">10.7k Posts</div>
+        </div>
+
+      </div>
+
+      <div class="who sticky top-[0vh] w-2/3 bg-[#16181c] m-3 rounded-2xl py-5 space-y-3">
+        <h1 class="text-xl font-bold px-3">Who to follow</h1>
+        <div class="item py-2 px-3 space-y-5 ">
+          <div class="font-bold hover:cursor-pointer flex items-center hover:text-blue-200 hover:underline gap-2">
+            <img src="image/instagram_Bluetick-removebg-preview.png" alt="twitter bluetick" class="w-6">
+            Aespa Winter
+          </div>
+          <div class="font-bold hover:cursor-pointer flex items-center hover:text-blue-200 hover:underline gap-2">
+            <img src="image/instagram_Bluetick-removebg-preview.png" alt="twitter bluetick" class="w-6">
+            Kim Chaewon
+          </div>
+          <div class="font-bold hover:cursor-pointer flex items-center hover:text-blue-200 hover:underline gap-2">
+            <img src="image/instagram_Bluetick-removebg-preview.png" alt="twitter bluetick" class="w-6">
+            katarinabluu
+          </div>
+          <div class="font-bold hover:cursor-pointer flex items-center hover:text-blue-200 hover:underline gap-2">
+            <img src="image/instagram_Bluetick-removebg-preview.png" alt="twitter bluetick" class="w-6">
+            Ahyeon
+          </div>
+          <div class="font-bold hover:cursor-pointer flex items-center hover:text-blue-200 hover:underline gap-2">
+            <img src="image/instagram_Bluetick-removebg-preview.png" alt="twitter bluetick" class="w-6">
+            Eunchae
+          </div>
+          <div class="font-bold hover:cursor-pointer flex items-center hover:text-blue-200 hover:underline gap-2">
+            <img src="image/instagram_Bluetick-removebg-preview.png" alt="twitter bluetick" class="w-6">
+            Yuna
+          </div>
+        </div>
+        <div class="hover:cursor-pointer hover:underline text-blue-900  px-3 ">Show more</div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
